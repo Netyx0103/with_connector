@@ -1,0 +1,245 @@
+> this thing doesn't work. it compiles without errors, but when you go to `localhost:3000` in a browser it shows this error:
+```ReferenceError: exports is not defined
+./src/example/node_modules/@ledgerhq/hw-transport/lib/Transport.js/<
+http://localhost:3000/static/js/vendors~main.chunk.js:301582:1
+./src/example/node_modules/@ledgerhq/hw-transport/lib/Transport.js
+http://localhost:3000/static/js/vendors~main.chunk.js:302055:30
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+./src/example/node_modules/@ledgerhq/hw-transport-u2f/lib/TransportU2F.js/<
+src/TransportU2F.js:4
+
+  1 | //@flow
+  2 | 
+  3 | import { sign, isSupported } from "u2f-api";
+> 4 | import Transport, { TransportError } from "@ledgerhq/hw-transport";
+  5 | 
+  6 | function wrapU2FTransportError(originalError, message, id) {
+  7 |   const err = new TransportError(message, id);
+
+./src/example/node_modules/@ledgerhq/hw-transport-u2f/lib/TransportU2F.js
+http://localhost:3000/static/js/vendors~main.chunk.js:301564:30
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+./src/example/node_modules/@web3-react/ledger-connector/node_modules/@0x/subproviders/lib/src/index.js
+src/index.ts:2
+
+  1 | "use strict";
+> 2 | Object.defineProperty(exports, "__esModule", { value: true });
+  3 | exports.assert = void 0;
+  4 | const json_schemas_1 = require("@0x/json-schemas");
+  5 | const utils_1 = require("@0x/utils");
+
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+./src/example/node_modules/@web3-react/ledger-connector/dist/ledger-connector.esm.js
+http://localhost:3000/static/js/vendors~main.chunk.js:303987:101
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+fn
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:150
+
+  147 | 		);
+  148 | 		hotCurrentParents = [];
+  149 | 	}
+> 150 | 	return __webpack_require__(request);
+      | ^  151 | };
+  152 | var ObjectFactory = function ObjectFactory(name) {
+  153 | 	return {
+
+1
+http://localhost:3000/static/js/main.chunk.js:3927:18
+__webpack_require__
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:856
+
+  853 | 
+  854 | __webpack_require__.$Refresh$.init();
+  855 | try {
+> 856 | 	modules[moduleId].call(module.exports, module, module.exports, hotCreateRequire(moduleId));
+      | ^  857 | } finally {
+  858 | 	__webpack_require__.$Refresh$.cleanup(moduleId);
+  859 | }
+
+checkDeferredModules
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:45
+
+  42 | 	}
+  43 | 	if(fulfilled) {
+  44 | 		deferredModules.splice(i--, 1);
+> 45 | 		result = __webpack_require__(__webpack_require__.s = deferredModule[0]);
+     | ^  46 | 	}
+  47 | }
+  48 | 
+
+webpackJsonpCallback
+/home/hohey/SimpleVideoUIv3/client/webpack/bootstrap:32
+
+  29 | 	deferredModules.push.apply(deferredModules, executeModules || []);
+  30 | 
+  31 | 	// run deferred modules when all chunks ready
+> 32 | 	return checkDeferredModules();
+     | ^  33 | };
+  34 | function checkDeferredModules() {
+  35 | 	var result;
+
+(anonymous function)
+http://localhost:3000/static/js/main.chunk.js:1:65
+This screen is visible only in development. It will not appear if the app crashes in production.
+Open your browser’s developer console to further inspect this error.  Click the 'X' or hit ESC to dismiss this message.```
