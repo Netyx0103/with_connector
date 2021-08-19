@@ -1,4 +1,4 @@
-> this thing doesn't work. it compiles without errors, but when you go to `localhost:3000` in a browser it shows this error:
+this thing doesn't work. it compiles without errors, but when you go to `localhost:3000` in a browser it shows this error:
 ```ReferenceError: exports is not defined
 ./src/example/node_modules/@ledgerhq/hw-transport/lib/Transport.js/<
 http://localhost:3000/static/js/vendors~main.chunk.js:301582:1
