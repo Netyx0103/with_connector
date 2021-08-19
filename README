@@ -1,5 +1,7 @@
 this thing doesn't work. it compiles without errors, but when you go to `localhost:3000` in a browser it shows this error:
-```ReferenceError: exports is not defined
+
+
+ReferenceError: exports is not defined
 ./src/example/node_modules/@ledgerhq/hw-transport/lib/Transport.js/<
 http://localhost:3000/static/js/vendors~main.chunk.js:301582:1
 ./src/example/node_modules/@ledgerhq/hw-transport/lib/Transport.js
@@ -242,4 +244,4 @@ webpackJsonpCallback
 (anonymous function)
 http://localhost:3000/static/js/main.chunk.js:1:65
 This screen is visible only in development. It will not appear if the app crashes in production.
-Open your browser’s developer console to further inspect this error.  Click the 'X' or hit ESC to dismiss this message.```
+Open your browser’s developer console to further inspect this error.  Click the 'X' or hit ESC to dismiss this message.
